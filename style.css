@@ -13,7 +13,7 @@ table {
 
 td,
 th {
-  border: 1px solid #dddddd;
+  border: 1px solid #bebebe;
   text-align: left;
   padding: 8px;
 }
@@ -43,4 +43,9 @@ footer{
 
 footer p{
   margin: 0;
+}
+
+.segnale-image{
+  height: auto;
+  width: 200px;
 }

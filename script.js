@@ -58,8 +58,11 @@ function getCategorie() {
         .catch(error => console.error(error));
 }
 
-
 function generateButtons() {
+    document.getElementById('mostraTutte').addEventListener('click', function() {
+        console.log("mostro tutto")
+        populateTable(segnali);
+    });
     let filtri = document.getElementById('filtro');
     categorie.forEach(categoria => {
         let btn = document.createElement('a');
